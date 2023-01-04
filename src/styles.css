@@ -1,0 +1,190 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    background-color: white;
+}
+.hero{
+    background-color: #1a3254;
+    height: 80vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 80px;
+    margin: 0;
+}
+
+h2{
+    font-size: 25px;
+}
+
+p{
+    font-weight: 350;
+    margin: 0;
+}
+
+.sub-text{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text{
+    margin-left: 40px;
+    margin-bottom: 200px;
+}
+
+.button{
+    width: 160px;
+    height: 45px;
+    border-radius: 30px;
+    text-align: center;
+    background-color:rgb(185, 10, 10);
+    font-size: 30px;
+    padding-top: 8px;
+}
+
+.button:hover{
+    background-color: rgb(221, 85, 85);
+}
+
+.button:active{
+    background-color: darkgrey;
+    color:aliceblue;
+}
+
+.socials{
+    padding-bottom: 200px;
+}
+
+.social{
+    margin: 20px;
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.project-card{
+    width: 450px;
+    height: 400px;
+    box-shadow: 5px 5px 20px rgb(224, 224, 224);
+    margin: 10px;
+}
+
+.project-container{
+    display:flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+.project-image{
+    margin: 25px;
+    width: 200px;
+    border-radius: 150px;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link{
+    text-decoration: none;
+    color: rgb(185, 10, 10);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger{
+    display: none;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px){
+    .hamburger{
+        display: block;
+        border: 0px;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul{
+        display: none;
+        background-color: #253854;
+        margin: 0px;
+
+    }
+
+    ul.show{
+        display: block;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #253854;
+    }
+
+    .logo{
+        display: none;
+    }
+}
