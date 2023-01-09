@@ -7,7 +7,7 @@ section{
 }
 .hero{
     background-color: #1a3254;
-    height: 80vh;
+    height: 70vh;
     color: white;
     font-size: 40px;
 }
@@ -17,6 +17,10 @@ footer{
     color: white;
     text-align: center;
     padding: 80px;
+}
+
+.footer-email{
+    font-size: 20px;
 }
 
 nav{
@@ -42,16 +46,16 @@ h1{
 }
 
 h2{
-    font-size: 25px;
+    font-size: 40px;
 }
 
 p{
     font-weight: 350;
-    margin: 0;
+    margin: 5;
 }
 
 .sub-text{
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 300;
 }
 
@@ -97,6 +101,7 @@ p{
 .sub-section{
     display: flex;
     justify-content: space-around;
+    font-size: 25px;
     padding: 80px;
 }
 
@@ -143,7 +148,7 @@ hr{
     color: rgb(185, 10, 10);
 }
 
-a {
+a{
     text-decoration: none;
     color: white;
 }
@@ -154,6 +159,12 @@ a {
 
 .hamburger:focus{
     outline: 0;
+}
+
+.logo{
+    margin: 10px;
+    width: 60px;
+    height: 60px;
 }
 
 @media only screen and (max-width: 1000px){
